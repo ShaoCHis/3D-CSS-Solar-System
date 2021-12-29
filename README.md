@@ -11,3 +11,7 @@ demo : http://139.196.194.51:8082
    xhr.open('get', '//zh.wikipedia.org/api/rest_v1/page/summary/' + input);input为用户输入；
 5｜信息查询浮框采用计时器，搜索成功后作为浮框显示科普内容，在计时20s后自动消失；
 ```
+
+## AboutThisSystem｜关于项目使用
+```
+```
