@@ -28,3 +28,14 @@ demo : http://139.196.194.51:8082
 
 ## 系统介绍
 本网页主要是进行太阳系的科普工作，wikipedia的API需要进行一定的网络代理才可以进行访问。
+
+## Tips
+跨域问题未在代码中解决，因为服务器部署可以使用nginx解决跨域问题，所以代码中未解决，如需跨域请参照以下教程：
+```
+以Chrome为例：
+   windows下：
+      C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe --disable-web-security --user-data-dir=C:\Program Files (x86)\Google\Chrome\Application
+      将文件目录替换为自己的文件目录，主要修改为--disable～（关闭谷歌的跨域）
+   macOS/Linux下：
+      在一个文件目录下创建一个Chrome的文件夹，然后使用指令open -n /Applications/Google\ Chrome.app/ --args --disable-web-security  --user-data-            dir=/Users/shentao/Documents/MyChrome，将dir=后面的文件目录替换为自己新建的Chrome文件目录即可
+```
