@@ -1484,3 +1484,21 @@ body {
 @media screen and (min-width: 1600px) {
   .zoom-close .scale-d #solar-system {
     margin-left: -120%; } }
+
+.searchInformation{
+  z-index:10;
+  top: 30%;
+  background-color: RGBA(255,255,255,0.3);
+  height: 100px;
+  width: 300px
+}
+.showInformation{
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  left: -60%;
+  z-index:10;
+  top: 30%;
+  background-color: RGBA(255,255,255,0.3);
+  border: 0px
+}
