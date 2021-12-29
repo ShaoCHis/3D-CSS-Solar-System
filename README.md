@@ -1,6 +1,2 @@
-3D CSS Solar System 
-===================
-
-Solar System data visualisation done in HTML/CSS and a bit of Javascript.
-
-See it in action : http://codepen.io/juliangarnier/full/idhuG
+# 3D-Solar-System
+demo：[]139.196.194.51:8082
