@@ -1,5 +1,6 @@
 # 3D-Solar-System
-demo : http://139.196.194.51:8082(由于服务器的网络限制，所以服务器端并未集成wikipedia的API，暂未实现搜索功能）
+demo : http://139.196.194.51:8082
+(由于服务器的网络限制，所以服务器端并未集成wikipedia的API，暂未实现搜索功能）
 
 ## Technology｜技术
 ```
